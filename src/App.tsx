@@ -17,7 +17,7 @@ export const App = () => {
     m.open({
       name: 'Modal2',
       id: faker.string.uuid(),
-      props: { age: faker.person.fullName(), onClick: () => window.alert('Alert modal2') },
+      props: { age: faker.number.float(), onClick: () => window.alert('Alert modal2') },
     })
   }
 

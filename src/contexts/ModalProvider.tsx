@@ -22,7 +22,7 @@ export const ModalProvider = ({ children }: PropsWithChildren) => {
 
   return (
     <ModalContext.Provider value={{ closeAll, modals, open, remove }}>
-      <>{children}</>
+      {children}
     </ModalContext.Provider>
   )
 }

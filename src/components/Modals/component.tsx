@@ -2,7 +2,7 @@ import { useModal } from '../../contexts'
 
 import * as Modals from './components'
 
-export const CustomModal = () => {
+export const ModalRoot = () => {
   const { modals } = useModal()
 
   return modals.map(({ name, id, props }) => {
